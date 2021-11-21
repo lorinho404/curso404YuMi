@@ -69,19 +69,12 @@
 
  ​                        ); ​os​.​system​( ​"cls||clear"
 
- ​                ); ​print​( ​command_handler​[​op​çã​o​] )
-
- ​                ​if​ ​op​çã​o​ ​!=​ ​9​:
+ ​                ); ​print​( ​command_handler​[​op​çã​o​] 
+ ​         9​:
  ​                        ​voltar​ ​=​ ​0
  ​                        ​while​ ​voltar​ ​!=​ ​""​:
  ​                                ​voltar​ ​=​ ​input​(​"​\033​[31mTecle enter para voltar ao menu."​)
 
  ​                ​else​:
- ​                        ​os​.​system​(​"rm -rf __pycache__"​)
 
 
- ​        ​except​ (​KeyError​, ​ValueError​):
- ​                ​pass
-
- ​        ​except​ (​KeyboardInterrupt​, ​EOFError​):
- ​                ​exit​(​0​)
